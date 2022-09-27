@@ -39,33 +39,33 @@ header .right svg{
 
 
 /* Debut Body */
-.main{ 
+.principal{ 
   display: flex;
   flex-direction: column;
   align-items: center ;
   margin-top: 140px;}
 
-.main .form-group {
+.principal .form-group {
 align-items: center;
 width: 250px ;}
   
- .main .form-group input{
+ .principal .form-group input{
 border-radius: 50px;
 margin-top: 15px;
   padding:  4px;
 width:  100%;
   }
-.main .form-group input:hover 
+.principal .form-group input:hover 
 {   -webk-webkit-box-shadow: -8px -1px 19px -8px rgba(184,184,184,1);
   -moz-box-shadow: -8px -1px 19px -8px rgba(184,184,184,1);
   box-shadow: -8px -1px 19px -8px rgba(184,184,184,1);
   }
 
 
-.main .buttons{
+.principal .buttons{
   margin-top: 40px;
 }
-.main .buttons button{
+.principal .buttons button{
   padding: 10px 20px;
   background-color: #f0f0f0;
   border:none; 
