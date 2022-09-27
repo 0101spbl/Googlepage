@@ -1,0 +1,50 @@
+
+
+body{ 
+font-family: sans-serif
+padding: 0;
+margin:  0;
+}
+
+
+
+/* début de la partie Header */
+
+header { 
+display : flex;
+justify-content: space-between;
+flex-wrap: wrap;
+margin: 10px 20px;
+color: grey;
+padding: 0;
+margin:  0;
+ }
+
+header .right svg {
+	height : 30px;
+	width:  30px;
+	margin-top: 10px;
+	Margin-right:  10px;}
+
+header .right p.user{
+  font-size: 30px;
+  margin-top: 10px;
+  color: #595959;
+}
+ header  .left 
+ { display:flex  }
+
+
+header p : { 
+margin-right : 10px;
+cursor:  pointer;
+
+} 
+
+header p:hover {
+	color:  #000;
+	cursor: pointer;
+}
+header .left, header .right {display: flex; flex-wrap: wrap;}
+
+/* fin de la partie Header */
